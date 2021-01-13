@@ -23,7 +23,7 @@
     background-image: url('http://www.baltana.com/files/wallpapers-16/4K-Plain-Blurred-Background-HD-Desktop-Wallpaper-40962.jpg');
     background-size: cover; 
     height:100vh;
-    width: 100%;
+    width: 100wh;
   }
   .welcome{
     font-family:"Comic Sans MS", "Comic Sans", cursive;
