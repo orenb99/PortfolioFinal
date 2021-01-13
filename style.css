@@ -47,6 +47,7 @@
     border-left-style: solid;
     border-right-style: solid;
     border-width: 5px;
+    font-size: 20px;
   }  
   .project-tile{
     border-bottom-style: solid;
@@ -54,8 +55,7 @@
   .project-tile2{
     border-top-style: solid;
   }
-  img{
-    width: inherit;
-    height: inherit;
-  }
+   img{
+    width: 100%;
+  } 
  
