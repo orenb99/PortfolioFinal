@@ -1,7 +1,9 @@
  
      body{
         margin:0;
-        background-color:rgba(214, 32, 214, 0.712);
+        background-color:rgba(67, 30, 73);
+        background-image: url('http://www.baltana.com/files/wallpapers-16/4K-Plain-Blurred-Background-HD-Desktop-Wallpaper-40962.jpg');
+    background-size: cover; 
 
     }
   .link{
