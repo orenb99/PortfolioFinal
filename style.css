@@ -1,0 +1,44 @@
+ 
+     body{
+        margin:0;
+    }
+  .link{
+    margin:0 50px 0 50px;
+  } 
+  
+  #header{
+   text-align:center;
+   position: fixed; 
+   top: 0px;
+    width:100%;
+   background-color:aqua; 
+   border:solid;
+   font-family:"Comic Sans MS", "Comic Sans", cursive;
+   font-weight:bold;
+   font-size: 20px; 
+  }
+  #welcome-section{
+     background-color:rgba(214, 32, 214, 0.712);
+    position:static;
+    background-image: url('http://www.baltana.com/files/wallpapers-16/4K-Plain-Blurred-Background-HD-Desktop-Wallpaper-40962.jpg');
+    background-size: cover; 
+    height:100vh;
+  }
+  .welcome{
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    font-weight:bold;
+    text-align:center;
+    position:relative;
+    top:30%;
+    font-size: 50px;
+  }
+  table{
+    position: relative;
+    left: 10px;
+    background-color: darkseagreen;
+    border-style: solid;
+  }
+  td{
+    border-style: solid;
+  }  
+ 
