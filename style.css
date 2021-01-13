@@ -1,6 +1,10 @@
  
      body{
         margin:0;
+        background-color:rgba(67, 30, 73);
+        background-image: url('http://www.baltana.com/files/wallpapers-16/4K-Plain-Blurred-Background-HD-Desktop-Wallpaper-40962.jpg');
+    background-size: cover; 
+
     }
   .link{
     margin:0 50px 0 50px;
@@ -18,11 +22,11 @@
    font-size: 20px; 
   }
   #welcome-section{
-     background-color:rgba(214, 32, 214, 0.712);
     position:static;
     background-image: url('http://www.baltana.com/files/wallpapers-16/4K-Plain-Blurred-Background-HD-Desktop-Wallpaper-40962.jpg');
     background-size: cover; 
     height:100vh;
+    width: 100vw;
   }
   .welcome{
     font-family:"Comic Sans MS", "Comic Sans", cursive;
@@ -31,14 +35,44 @@
     position:relative;
     top:30%;
     font-size: 50px;
+    
   }
   table{
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    font-weight:bold;
+    text-align:center;
     position: relative;
-    left: 10px;
-    background-color: darkseagreen;
-    border-style: solid;
+    width: 100%;
   }
   td{
-    border-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 5px;
+    font-size: 20px;
+    border-color: maroon;
   }  
- 
+  .project-tile{
+    border-bottom-style: solid;
+  }
+  .project-tile2{
+    border-top-style: solid;
+  }
+   img{
+    width: 100%;
+  } 
+ #profile-link{
+   font-size: 50px;
+   font-family:"Comic Sans MS", "Comic Sans", cursive;
+   font-weight:bold;
+   color: black;
+   border: solid;
+   border-color: maroon;
+   background-color: maroon;
+   border-radius:15px;
+   border-width: 10px;
+   text-decoration: none;
+ }
+footer{
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
